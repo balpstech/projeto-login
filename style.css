@@ -8,7 +8,9 @@
 }
 
 body {
-    background-image: url(images/background.png);
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 main {
     display: block;
@@ -20,7 +22,7 @@ main {
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 5px 5px #000000e7;
+    box-shadow: 5px 5px #00000086;
     text-align: center;
     transform: translate(-50%, -50%);
     transition: width 0.5s, height 0.5s;
