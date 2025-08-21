@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.png);
+}
+main {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ffffffe7;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px #000000e7;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    transition: width 0.5s, height 0.5s;
+}
+h1 {
+    margin-bottom: 10px;
+}
+section#login {
+    margin-top: 10px;
+}
+section#img {
+    display: block;
+    background: url(images/water.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+input[type=submit] {
+    display: inline;
+    text-align: center;
+    font-size: 1em;
+    background-color: #afa0e6;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #6b6191;
+}
+form > button {
+    display: inline;
+    text-align: center;
+    font-size: 1em;
+    background-color: #afa0e6;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+form > button:hover {
+    background-color: #6b6191;
+}

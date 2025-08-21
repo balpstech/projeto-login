@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    main {
+         width: 90vw;
+    
+    }
+    section#login {
+    margin-top: 100px;
+}
+    section#img {
+        float: left;
+        background-image: url(images/water.gif);
+        background-position: center;
+        width: 40%;
+        height: 100%;
+    }
+    input[type=submit] {
+        background-color: #d2da3a;
+        width: 50%;
+
+    }
+    input[type=submit]:hover {
+        background-color: #a5ac30;
+    }
+    form > button {
+        background-color: #d2da3a;
+        width: 50%;
+    }
+    form > button:hover {
+        background-color: #a5ac30;
+    }
+}
